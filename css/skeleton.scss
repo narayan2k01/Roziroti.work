@@ -53,9 +53,7 @@ body{
             justify-content: center;
             gap: 35px;
             font-size: 1.3rem;
-            .navbar-link{
-                
-            }
+           
             .navbar-link:hover{
                 color: rgb(207, 98, 58);
             }
@@ -147,9 +145,6 @@ body{
                     width: 100%;
                     border-top-right-radius: 18rem;
                     border-top-left-radius: 18rem;
-                }
-                .home{
-
                 }
             }
         }
@@ -253,19 +248,22 @@ body{
        
     }
     .sec3-halfCircle{
-        width: 40%;
-        border-radius: 50%;
-        background-color: white;
-        position: relative;
-        
-        
-       margin: auto;
-        bottom: 50px;
-        padding: 5%;
-        text-align: center;
+        width: fit-content;
+   
+    z-index: 12;
+    position: relative;
+    margin: auto;
+    top: -70px;
+   
+    text-align: center;
+    
+    
+    
+
         .sec3-subhead{
             font-size: 20px;
             font-weight: 200;
+            margin: 20px 0;
         }
         .sec3-head{
             font-size: 6rem;
@@ -283,14 +281,70 @@ body{
                 background-color: rgb(207, 98, 58);
                 border-radius: 25px;
                 width: fit-content;
-                margin: 20px 0;
+                margin: 20px auto;
 
         }
         .sec3-btn:hover{
             opacity:  0.8;
         }
     }
+    .sec3-halfCircle::before{
+        content: "";
+        
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+    padding: 50%;
+    left: 0;
+    bottom: -110px;
+
+    }
+
 }
+
+.sec4{
+    .sec4-cont{
+        .sec4-cards{
+            .owl-item{
+                width: 300px;
+                height: 400px;
+            }
+            .sec4-card{
+                height: 100%;
+                .sec4-card-img{
+
+                }
+                .sec4-card-img-content{
+                    .sec4-card-img-btn{
+                        text-align: center;
+                        width: fit-content;
+                        margin: 40% auto;
+                    }
+                    .sec4-card-img-head{
+
+                    }
+                    .sec4-card-img-subtext{
+                    
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

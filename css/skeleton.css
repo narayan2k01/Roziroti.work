@@ -199,18 +199,18 @@ body {
   width: 100%;
 }
 .sec3 .sec3-halfCircle {
-  width: 40%;
-  border-radius: 50%;
-  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  z-index: 12;
   position: relative;
   margin: auto;
-  bottom: 50px;
-  padding: 5%;
+  top: -70px;
   text-align: center;
 }
 .sec3 .sec3-halfCircle .sec3-subhead {
   font-size: 20px;
   font-weight: 200;
+  margin: 20px 0;
 }
 .sec3 .sec3-halfCircle .sec3-head {
   font-size: 6rem;
@@ -228,8 +228,34 @@ body {
   border-radius: 25px;
   width: -moz-fit-content;
   width: fit-content;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 .sec3 .sec3-halfCircle .sec3-btn:hover {
   opacity: 0.8;
+}
+.sec3 .sec3-halfCircle::before {
+  content: "";
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  z-index: -1;
+  padding: 50%;
+  left: 0;
+  bottom: -110px;
+}
+
+.sec4 .sec4-cont .sec4-cards .owl-item {
+  width: 300px;
+  height: 400px;
+}
+.sec4 .sec4-cont .sec4-cards .sec4-card {
+  height: 100%;
+}
+.sec4 .sec4-cont .sec4-cards .sec4-card .sec4-card-img-content .sec4-card-img-btn {
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 40% auto;
 }/*# sourceMappingURL=skeleton.css.map */
