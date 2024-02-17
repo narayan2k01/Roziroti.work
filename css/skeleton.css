@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.hero-section .hero-cont {
+  width: 100%;
+  position: relative;
+}
+.hero-section .hero-cont .hero-video video {
+  width: 100%;
+}
+.hero-section .hero-cont .hero-text {
+  font-size: 6rem;
+  font-weight: 600;
+  color: white;
+  top: 20%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-section .hero-cont .hero-arrow {
+  position: absolute;
+  bottom: 52px;
+  color: white;
+  font-size: 3rem;
+  left: 49.5%;
+}
+
+.navbar-section {
+  position: absolute;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+}
+.navbar-section .navbar-cont {
+  display: flex;
+  justify-content: center;
+  gap: 11%;
+  align-items: center;
+  padding: 26px 0;
+  font-size: 15px;
+}
+.navbar-section .navbar-cont .navbar-links {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  font-size: 1.3rem;
+}
+.navbar-section .navbar-cont .navbar-links .navbar-link:hover {
+  color: rgb(207, 98, 58);
+}
+.navbar-section .navbar-cont .navbar-links .navbar-btn {
+  color: white;
+  padding: 2px 20px;
+  background-color: rgb(207, 98, 58);
+  border-radius: 25px;
+}
+.navbar-section .navbar-cont .navbar-links .navbar-btn:hover {
+  opacity: 0.8;
+}
+.navbar-section .navbar-cont .navbar-logo .navbar-logo-head {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar-section .navbar-cont .navbar-logo .navbar-logo-subhead {
+  text-align: center;
+  color: gray;
+}
+
+.sec1 .sec1-cont {
+  display: flex;
+  align-items: center;
+  margin: 90px auto;
+}
+.sec1 .sec1-cont .sec1-l {
+  width: 50%;
+  padding: 5%;
+  text-align: center;
+}
+.sec1 .sec1-cont .sec1-l .sec1-l-subhead {
+  font-size: 1.5rem;
+}
+.sec1 .sec1-cont .sec1-l .sec1-l-head {
+  font-size: 6rem;
+  line-height: 1;
+}
+.sec1 .sec1-cont .sec1-l .sec1-l-para {
+  font-size: 1.2rem;
+  margin-top: 25px;
+}
+.sec1 .sec1-cont .sec1-l .sec1-l-btn {
+  color: white;
+  padding: 6px 35px;
+  background-color: rgb(207, 98, 58);
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 25px;
+}
+.sec1 .sec1-cont .sec1-R {
+  width: 50%;
+}
+.sec1 .sec1-cont .sec1-R .owl-stage-outer {
+  border-top-left-radius: 15rem !important;
+}
+.sec1 .sec1-cont .sec1-R .sec1-R-img img {
+  width: 100%;
+  border-top-left-radius: 15rem;
+}
+
+.sec2 .sec2-cont {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.sec2 .sec2-cont .sec2-l {
+  width: 40%;
+  padding: 0%;
+}
+.sec2 .sec2-cont .sec2-l .sec2-l-img img {
+  width: 100%;
+  border-top-right-radius: 18rem;
+  border-top-left-radius: 18rem;
+}
+.sec2 .sec2-cont .sec2-R {
+  width: 55%;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-head h1 {
+  font-size: 6rem;
+  line-height: 1;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom {
+  padding: 30px 0;
+  gap: 50px;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .nav-pills {
+  background-color: white;
+  padding: 6px 0;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .nav-pills .nav-item .nav-link {
+  color: gray !important;
+  padding-top: 0 !important;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .nav-pills .nav-item .nav-link h1 {
+  font-size: 30px;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .nav-pills .nav-item .nav-link:hover {
+  color: rgb(222, 112, 73) !important;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .nav-pills .nav-item .active {
+  color: black !important;
+  background-color: white;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .tab-content .tab-pane {
+  letter-spacing: 1px;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .tab-content .tab-pane .sec2-R-btn {
+  color: white;
+  padding: 6px 35px;
+  background-color: rgb(207, 98, 58);
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px 0;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .tab-content .tab-pane .sec2-R-btn:hover {
+  opacity: 0.8;
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .tab-content .tab-pane p {
+  font-size: 18px;
+  margin: 20px 0;
+  font-weight: 200;
+  color: rgb(138, 135, 135);
+}
+.sec2 .sec2-cont .sec2-R .sec2-R-Bottom .tab-content .tab-pane h1 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.active {
+  display: block;
+}
+
+.sec3 {
+  position: relative;
+}
+.sec3 .sec3-cont {
+  width: 100%;
+}
+.sec3 .sec3-cont .sec3-img img {
+  width: 100%;
+}
+.sec3 .sec3-halfCircle {
+  width: 40%;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  margin: auto;
+  bottom: 50px;
+  padding: 5%;
+  text-align: center;
+}
+.sec3 .sec3-halfCircle .sec3-subhead {
+  font-size: 20px;
+  font-weight: 200;
+}
+.sec3 .sec3-halfCircle .sec3-head {
+  font-size: 6rem;
+  line-height: 1;
+}
+.sec3 .sec3-halfCircle .sec3-para {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
+.sec3 .sec3-halfCircle .sec3-btn {
+  color: white;
+  padding: 6px 35px;
+  background-color: rgb(207, 98, 58);
+  border-radius: 25px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px 0;
+}
+.sec3 .sec3-halfCircle .sec3-btn:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=skeleton.css.map */
