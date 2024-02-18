@@ -306,28 +306,66 @@ body{
 }
 
 .sec4{
+    padding:20px 0 ;
     .sec4-cont{
         .sec4-cards{
             .owl-item{
-                width: 300px;
-                height: 400px;
+              
             }
-            .sec4-card{
-                height: 100%;
-                .sec4-card-img{
+          
+            
+                
+                
+            .sec4-card:hover img{
+              z-index: -1;
+                transition: 1s;
+                
+            }
 
+            .sec4-card{
+                background:linear-gradient(0deg, rgba(193, 86, 39, 0.7) 0%, rgba(193, 86, 39, 0.7) 100%);
+                position: relative;
+                .sec4-card-img{
+                    img{
+                        width: 382;
+                        height: 483px;
+                        position: absolute;
+                    }
+                  
                 }
                 .sec4-card-img-content{
+                    color: white;
+                    padding: 0 20px;
+
+                   
                     .sec4-card-img-btn{
                         text-align: center;
                         width: fit-content;
-                        margin: 40% auto;
+                        margin: 0 auto;
+                        padding: 150px 0;
+                       
+                        .btn-content{
+                            border: 1px solid white;
+                            border-radius: 25px;
+                            padding: 10px 26px;
+                        }
                     }
                     .sec4-card-img-head{
+                        width: 100%;
+                        text-size-adjust: 100%;
+                        font-size: 37.5px;
+                        font-weight: 400;
+                        padding: 10px 0;
+                        font-family: "F37 Caslon", serif;
+                        
+                        
 
                     }
                     .sec4-card-img-subtext{
-                    
+                        border-top: 1px solid white;
+                        font-size: 15px;
+                        padding-top: 10px;
+                        padding-bottom: 30px;
                     }
                     
                 }
